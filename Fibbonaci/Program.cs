@@ -5,9 +5,10 @@
     {
         static void Main(string[] args)
         {
-            var n = int.Parse(Console.ReadLine());
-            var f0=1;
+            var n = 2;
             var f1= 1;
+			
+			//21312312
             for (int i = 0; i < n-1; i++)
 			{
 			 var sum = f0 + f1;
@@ -16,6 +17,7 @@
 
 			}
             Console.WriteLine(f1);
+			//we dem boyza
         }
     }
 
